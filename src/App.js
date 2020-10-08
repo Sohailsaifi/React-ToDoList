@@ -31,7 +31,7 @@ function App() {
     }
   }
 
-  const [inputText, setInputText] = useState("");
+  
   return (
     <div className="App">
       <header>
