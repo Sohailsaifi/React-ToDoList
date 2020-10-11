@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import './App.css';
 
-//Importing components
+//Importing Components
 import Form from './components/Form';
 import TodoList from './components/TodoList';
 
@@ -48,24 +48,24 @@ function App() {
       setTodos(todoLocal);
     }
   };
-  
+
   return (
     <div className="App">
       <header>
         <h1> Todo List </h1>
       </header>
-     <Form
-          inputText = {inputText} 
-          todos = {todos} 
-          setTodos = {setTodos} 
-          setInputText = {setInputText}
-          setStatus = {setStatus}
-     />
-     <TodoList
-          setTodos = {setTodos} 
-          todos = {todos}
-          filteredTodos = {filteredTodos}
-     />
+      <Form 
+        inputText = {inputText} 
+        todos = {todos} 
+        setTodos = {setTodos} 
+        setInputText = {setInputText}
+        setStatus = {setStatus}
+      />
+      <TodoList 
+      setTodos = {setTodos} 
+      todos = {todos}
+      filteredTodos = {filteredTodos}
+      />
 
     </div>
   );
