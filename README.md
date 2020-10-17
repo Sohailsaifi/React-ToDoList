@@ -1,4 +1,6 @@
-## Available Scripts
+## React Todo list
+This is the todo list project designed using react.
+
 
 In the project directory, you can run:
 
