@@ -1,5 +1,5 @@
 ## React Todo list
-This is the todo list project designed using react.You can add, delete or mark the tasks as completed.
+This is the todo list project designed using reactwith attractive designing.You can add, delete or mark the tasks as completed.
 
 
 In the project directory, you can run:
